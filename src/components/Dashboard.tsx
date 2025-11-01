@@ -83,7 +83,7 @@ export default function Dashboard({ userEmail, onSignOut }: DashboardProps) {
         <div className="bg-white rounded-2xl shadow-xl p-8">
           <h2 className="text-2xl font-bold text-slate-900 mb-2">Deploy Meeting Bot</h2>
           <p className="text-slate-600 mb-8">
-            Enter a meeting URL to deploy a Recall.ai bot with real-time transcription
+            Enter a meeting URL to deploy your bot with real-time transcription
           </p>
 
           {status && (
